@@ -21,6 +21,7 @@ Using Different OpenSSL Keys and Certificates.
 ==============================================
 
 To generate a new OpenSSL key and certificate file, run this command in Terminal:
+
     openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
 
 To use the generated certificate, use this code to create a TCP SSL Socket:
