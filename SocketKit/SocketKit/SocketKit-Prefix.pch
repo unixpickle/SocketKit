@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SocketKit' target in the 'SocketKit' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif

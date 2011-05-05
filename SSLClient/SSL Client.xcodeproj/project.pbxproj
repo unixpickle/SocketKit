@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB27BED13734B750081ACCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB27BEC13734B750081ACCF /* Foundation.framework */; };
+		FAB27BF013734B750081ACCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB27BEF13734B750081ACCF /* main.m */; };
+		FAB27C2613734E500081ACCF /* SKTCPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB27C1D13734E500081ACCF /* SKTCPSocket.m */; };
+		FAB27C2713734E500081ACCF /* SKTCPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB27C1F13734E500081ACCF /* SKTCPSocketServer.m */; };
+		FAB27C2813734E500081ACCF /* SKTCPSSLSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB27C2113734E500081ACCF /* SKTCPSSLSocket.m */; };
+		FAB27C2913734E500081ACCF /* SKSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB27C2313734E500081ACCF /* SKSocket.m */; };
+		FAB27C2A13734E500081ACCF /* SKSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB27C2513734E500081ACCF /* SKSocketServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAB27BE613734B750081ACCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAB27BE813734B750081ACCF /* SSL Client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SSL Client"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB27BEC13734B750081ACCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAB27BEF13734B750081ACCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB27BF213734B750081ACCF /* SSL Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSL Client-Prefix.pch"; sourceTree = "<group>"; };
+		FAB27BF313734B750081ACCF /* SSL_Client.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SSL_Client.1; sourceTree = "<group>"; };
+		FAB27C1C13734E500081ACCF /* SKTCPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTCPSocket.h; sourceTree = "<group>"; };
+		FAB27C1D13734E500081ACCF /* SKTCPSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTCPSocket.m; sourceTree = "<group>"; };
+		FAB27C1E13734E500081ACCF /* SKTCPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTCPSocketServer.h; sourceTree = "<group>"; };
+		FAB27C1F13734E500081ACCF /* SKTCPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTCPSocketServer.m; sourceTree = "<group>"; };
+		FAB27C2013734E500081ACCF /* SKTCPSSLSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTCPSSLSocket.h; sourceTree = "<group>"; };
+		FAB27C2113734E500081ACCF /* SKTCPSSLSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTCPSSLSocket.m; sourceTree = "<group>"; };
+		FAB27C2213734E500081ACCF /* SKSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSocket.h; sourceTree = "<group>"; };
+		FAB27C2313734E500081ACCF /* SKSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSocket.m; sourceTree = "<group>"; };
+		FAB27C2413734E500081ACCF /* SKSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSocketServer.h; sourceTree = "<group>"; };
+		FAB27C2513734E500081ACCF /* SKSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSocketServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB27BE513734B750081ACCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB27BED13734B750081ACCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB27BDD13734B750081ACCF = {
+			isa = PBXGroup;
+			children = (
+				FAB27BEE13734B750081ACCF /* SSL Client */,
+				FAB27BEB13734B750081ACCF /* Frameworks */,
+				FAB27BE913734B750081ACCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB27BE913734B750081ACCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB27BE813734B750081ACCF /* SSL Client */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB27BEB13734B750081ACCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB27BEC13734B750081ACCF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB27BEE13734B750081ACCF /* SSL Client */ = {
+			isa = PBXGroup;
+			children = (
+				FAB27C1B13734E450081ACCF /* SK */,
+				FAB27BEF13734B750081ACCF /* main.m */,
+				FAB27BF313734B750081ACCF /* SSL_Client.1 */,
+				FAB27BF113734B750081ACCF /* Supporting Files */,
+			);
+			path = "SSL Client";
+			sourceTree = "<group>";
+		};
+		FAB27BF113734B750081ACCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB27BF213734B750081ACCF /* SSL Client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB27C1B13734E450081ACCF /* SK */ = {
+			isa = PBXGroup;
+			children = (
+				FAB27C2B13734E530081ACCF /* TCP */,
+				FAB27C2213734E500081ACCF /* SKSocket.h */,
+				FAB27C2313734E500081ACCF /* SKSocket.m */,
+				FAB27C2413734E500081ACCF /* SKSocketServer.h */,
+				FAB27C2513734E500081ACCF /* SKSocketServer.m */,
+			);
+			name = SK;
+			sourceTree = "<group>";
+		};
+		FAB27C2B13734E530081ACCF /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				FAB27C1C13734E500081ACCF /* SKTCPSocket.h */,
+				FAB27C1D13734E500081ACCF /* SKTCPSocket.m */,
+				FAB27C1E13734E500081ACCF /* SKTCPSocketServer.h */,
+				FAB27C1F13734E500081ACCF /* SKTCPSocketServer.m */,
+				FAB27C2013734E500081ACCF /* SKTCPSSLSocket.h */,
+				FAB27C2113734E500081ACCF /* SKTCPSSLSocket.m */,
+			);
+			name = TCP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB27BE713734B750081ACCF /* SSL Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB27BF613734B750081ACCF /* Build configuration list for PBXNativeTarget "SSL Client" */;
+			buildPhases = (
+				FAB27BE413734B750081ACCF /* Sources */,
+				FAB27BE513734B750081ACCF /* Frameworks */,
+				FAB27BE613734B750081ACCF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSL Client";
+			productName = "SSL Client";
+			productReference = FAB27BE813734B750081ACCF /* SSL Client */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB27BDF13734B750081ACCF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAB27BE213734B750081ACCF /* Build configuration list for PBXProject "SSL Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB27BDD13734B750081ACCF;
+			productRefGroup = FAB27BE913734B750081ACCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB27BE713734B750081ACCF /* SSL Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB27BE413734B750081ACCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB27BF013734B750081ACCF /* main.m in Sources */,
+				FAB27C2613734E500081ACCF /* SKTCPSocket.m in Sources */,
+				FAB27C2713734E500081ACCF /* SKTCPSocketServer.m in Sources */,
+				FAB27C2813734E500081ACCF /* SKTCPSSLSocket.m in Sources */,
+				FAB27C2913734E500081ACCF /* SKSocket.m in Sources */,
+				FAB27C2A13734E500081ACCF /* SKSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAB27BF413734B750081ACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAB27BF513734B750081ACCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB27BF713734B750081ACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/SSL Client\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSL Client/SSL Client-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB27BF813734B750081ACCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/SSL Client\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSL Client/SSL Client-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB27BE213734B750081ACCF /* Build configuration list for PBXProject "SSL Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB27BF413734B750081ACCF /* Debug */,
+				FAB27BF513734B750081ACCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB27BF613734B750081ACCF /* Build configuration list for PBXNativeTarget "SSL Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB27BF713734B750081ACCF /* Debug */,
+				FAB27BF813734B750081ACCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB27BDF13734B750081ACCF /* Project object */;
+}
